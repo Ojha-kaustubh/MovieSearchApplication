@@ -3,7 +3,8 @@ import { useSelector } from 'react-redux'
 import moment from 'moment'
 import { Link } from 'react-router-dom'
 
-const Card = ({data,trending,index,media_type }) => {
+const Card = ({data,trending,index,media_type }) => 
+    {
     const imageURL = useSelector(state => state.movieoData.imageURL)
 
     const mediaType = data.media_type ?? media_type
