@@ -6,6 +6,7 @@ const useFetchDetails = (endpoint)=>{
     const [loading,setLoading] = useState(false)
 
     const fetchData = async()=>{
+        
         try {
             setLoading(true)
             const response = await axios.get(endpoint)
