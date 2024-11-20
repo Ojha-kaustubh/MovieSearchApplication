@@ -4,7 +4,7 @@ import Home from "../pages/Home";
 import ExplorePage from "../pages/ExplorePage";
 import DetailsPage from "../pages/DetailsPage";
 import SearchPage from "../pages/SearchPage";
-
+// use ReactRouter
 const router = createBrowserRouter([
     {
         path : "/",
